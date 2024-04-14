@@ -9,7 +9,7 @@ export const useFetch = (url) => {
         error: null,
     });
 
-    useEffect(() => {
+    useEffect(() => {//Hola mundo
         getFetch();
 
     }, [url])
