@@ -2,7 +2,7 @@ import { useCounter, useFetch } from "../hooks"
 import { LoadingMessaje } from "./LoadingMessaje";
 import { PokemonCard } from "./PokemonCard";
 
-export const MultipleCustomHook = () => {
+export const Layout = () => {
 
   const { counter, decrement, increment } = useCounter(1)
 
