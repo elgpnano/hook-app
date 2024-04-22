@@ -4,7 +4,7 @@ import { CallBackHook } from './CallBackHook'
 
 
 export const ShowIncrement = React.memo(({ increment }) => {
-    console.log('Me volvi a generar')
+    //console.log('Me volvi a generar')
     
     return (
         <>

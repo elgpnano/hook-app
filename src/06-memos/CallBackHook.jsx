@@ -8,7 +8,7 @@ export const CallBackHook = () => {
 
     const incrementFather = useCallback(
         (value = 1) => {
-            console.log(value)
+            //onsole.log(value)
             setCounter((c) => c + value)
         }, [],
     );
