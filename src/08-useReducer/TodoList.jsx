@@ -11,8 +11,7 @@ export const TodoList = ({ todos = [], onDeleteTodo, returnDescription, onToggle
                         <TodoItem
                             key={todo.id}
                             todo={todo}
-                            onDeleteTodo={id => onDeleteTodo(id)} 
-                            returnDescription = {description => returnDescription(description)}
+                            onDeleteTodo={id => onDeleteTodo(id)}
                             onToggleTodo = {id => onToggleTodo(id)}
                             />
                     ))

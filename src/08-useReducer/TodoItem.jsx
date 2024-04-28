@@ -13,7 +13,7 @@ export const TodoItem = ({ todo, onDeleteTodo, returnDescription, onToggleTodo }
                 >{todo.description}</span>
                 <button
                     className='btn btn-danger'
-                    onClick={() => { onDeleteTodo(todo.id); returnDescription(todo.description) }}
+                    onClick={() => { onDeleteTodo(todo.id)}}
                 >Borrar</button>
             </li>
         </>
